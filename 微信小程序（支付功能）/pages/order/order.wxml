@@ -1,0 +1,17 @@
+<view class="testpay-container">
+    <view class="testpay-title">选择测验类型：<text>（个人生涯规划测验）</text></view>
+    <block wx:for="{{JTests}}" wx:for-index="idx" wx:for-item="JTest"> 
+      <view class="testpay-list">
+          <view class="testpay-list-l">
+              <text>{{JTest.testName}}</text>
+              <view>{{JTest.description}}</view>
+          </view>
+          <view class="testpay-list-r">
+              <view>
+                  ¥<text>{{JTest.testmoney}}</text>
+              </view>
+              <button bindtap='testPay' data-id="{{JTest.id}}" data-money="{{JTest.testmoney}}" data-name="{{JTest.testName}}">去支付</button>
+          </view>
+      </view>
+    </block>
+</view>

@@ -1,0 +1,8 @@
+<view class="newpayresult-success">支付成功!</view>
+<view class="newpayresult-icon">
+  <icon type="success" size="80"/>
+  <text>{{succ_payBody}}</text>
+  <text>已付：{{succ_payTotalfee}}元</text>
+</view>
+<view class="newpayresult-button">返回首页</view>
+<view class="newpayresult-button  newpayresult-button-order">查看订单</view>

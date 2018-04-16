@@ -1,0 +1,56 @@
+page{
+    background: #f1f1f1;
+}
+.testpay-container{
+    width: 100%;
+    height: 100%;
+    padding: 30rpx;
+    box-sizing: border-box;
+}
+.testpay-title{
+    margin-bottom: 20rpx;
+}
+.testpay-title>text{
+    font-size: 16px;
+    color: #333;
+}
+.testpay-list{
+    width: 100%;
+    background: #fff;
+    padding: 20rpx;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 35rpx;
+}
+.testpay-list-l{
+    flex: 1;
+}
+.testpay-list-l>view{
+    font-size:15px;
+    color: #666;
+    margin-top: 10rpx;
+}
+.testpay-list-r{
+    width: 150rpx;
+    text-align: center;
+    margin-left: 20rpx;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 14px;
+}
+.testpay-list-r text{
+    font-size: 20px;
+    color: #ff6114;
+    font-weight:bolder;
+    margin-left: 5rpx;
+}
+.testpay-list-r button{
+    background: #1296db;
+    color:#fff;
+    margin-top: 20rpx;
+    padding: 10rpx 0;
+    width:auto;
+    height: auto;
+    line-height: normal;
+    font-size: 15px;
+}

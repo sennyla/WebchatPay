@@ -1,0 +1,43 @@
+
+.newpayresult-success{
+  text-align: center;
+  background: #1296db;
+  padding: 20rpx 0;
+  color: #f5f5f5;
+}
+.newpayresult-icon{
+  display:flex;
+  display:-webkit-flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 80rpx 0;
+  background: #fff;
+  box-shadow: 0 1px 5px #ccc;
+}
+.newpayresult-icon>icon{
+  margin-bottom: 30rpx;
+}
+.newpayresult-icon>text{
+  font-size: 15px;
+  color: #666;
+  margin-top: 5rpx;
+}
+.newpayresult-button{
+  width: 90%;
+  margin:0 5%;
+  padding: 20rpx 0;
+  text-align: center;
+  background: none;
+   color: #1296db;
+   margin-top: 40rpx;
+   font-size: 16px;
+   border: 1px solid #1296db;
+   border-radius: 10rpx;
+   box-sizing: border-box;
+}
+.newpayresult-button-order{
+    border: 0;
+  background:#ddd;
+  color:#666;
+  margin-top:70rpx;
+}
